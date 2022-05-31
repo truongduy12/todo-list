@@ -1,0 +1,49 @@
+.wrapper {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	user-select: none;
+}
+.menu {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.filter {
+}
+.filterText {
+	margin-right: 1rem;
+}
+.filterSelect {
+	background-color: transparent;
+	border-color: darkgray;
+	border-radius: 0.3rem;
+	color: azure;
+	outline: none;
+	padding: 0.2rem;
+}
+.filterSelect option {
+	color: black;
+}
+.advanced {
+	display: flex;
+	overflow: hidden;
+}
+.advanced * {
+	margin-left: 0.5rem;
+}
+.advancedLinks {
+	display: none;
+}
+.visible {
+	display: block;
+	animation: reveal 1s ease;
+}
+
+@keyframes reveal {
+	from {
+		margin-right: -30px;
+	}
+	to {
+		margin-right: 0;
+	}
+}

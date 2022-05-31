@@ -1,0 +1,46 @@
+.wrapper {
+	background-color: rgba(255, 255, 255, 0.05);
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 0.2rem;
+	padding: 1rem;
+}
+.wrapper span {
+	margin-left: 1rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.wrapper:first-child {
+	margin-top: 0.2rem;
+}
+.wrapper:last-child {
+	margin-bottom: 0;
+}
+.wrapper:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+	cursor: pointer;
+	transform: scale(1.005);
+	transition-duration: 0.3s;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+}
+.active {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.input,
+.delete {
+	flex-grow: 1;
+}
+.delete {
+	text-align: right;
+	color: azure;
+}
+.delete:hover {
+	color: lightgray;
+}
+.title {
+	flex-grow: 8;
+}

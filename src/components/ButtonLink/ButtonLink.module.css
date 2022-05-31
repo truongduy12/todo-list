@@ -1,0 +1,8 @@
+.link {
+	color: azure;
+	padding: 0.2rem;
+}
+.link:hover {
+	cursor: pointer;
+	color: lightgray;
+}

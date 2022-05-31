@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+:root {
+	--main-bg-color-unsupported: #355c7d;
+	--main-bg-color-old: -webkit-linear-gradient(
+		to right,
+		#c06c84,
+		#6c5b7b,
+		#355c7d
+	);
+	--main-bg-color: linear-gradient(to right, #c06c84, #6c5b7b, #355c7d);
+}
+
+body {
+	background: var(--main-bg-color-unsupported);
+	background: var(--main-bg-color-old);
+	background: var(--main-bg-color);
+	box-sizing: border-box !important;
+	color: azure;
+	font-family: "Cabin", sans-serif;
+	margin: 0;
+	padding: 2rem 2rem 0 2rem;
+}
+
+html,
+body {
+	height: 100%;
+	min-height: 100%;
+	max-height: 100%;
+}
+.mce-content-body {
+	outline: none;
+}
+.tox-collection__item-label * {
+	color: black;
+}
